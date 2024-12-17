@@ -86,3 +86,22 @@ body {
     margin-top: 10px;
     display: none;
 }
+.star-icon-container {
+    background-color: hsl(213, 19%, 20%); /* Slightly lighter than the container's background */
+    border-radius: 50%; /* Makes the background rounded */
+    width: 60px; /* Adjust width as needed */
+    height: 60px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto; 
+}
+.rating button {
+    background-color: hsl(213, 19%, 20%); 
+    border-radius: 50%;
+    color: hsl(212, 6%, 57%); ;
+}
+.star-icon{
+    width: 25px !important; /* Decrease the size of the star */
+    height: 25px !important; /* Decrease the size of the star */
+}

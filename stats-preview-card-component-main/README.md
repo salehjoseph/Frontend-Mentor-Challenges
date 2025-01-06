@@ -24,7 +24,7 @@ Your users should be able to:
 - View the optimal layout depending on their device's screen size.  
 
 ### Links  
-- Live Site URL: [Live Site](https://your-live-site-url.com)  
+- Live Site URL: [Live Site]([https://your-live-site-url.com](https://salehjoseph.github.io/Frontend-Mentor-Challenges/stats-preview-card-component-main/))  
 - Solution URL: [GitHub Repository](https://github.com/salehjoseph/Frontend-Mentor-Challenges/stats-preview-card-component-main)  
 
 ---
@@ -66,7 +66,7 @@ I aim to further refine my responsiveness skills, improve on accessibility, and 
 
 ## Author  
 - Frontend Mentor Profile: [Your Profile](https://www.frontendmentor.io/profile/salehjoseph)  
-- GitHub: [Your GitHub](https://salehjoseph.github.io/Frontend-Mentor-Challenges/stats-preview-card-component-main/)  
+- GitHub: [Your GitHub](https://github.com/salehjoseph)  
 - LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/sebaana-yusuf-215839247/)  
 
 ---

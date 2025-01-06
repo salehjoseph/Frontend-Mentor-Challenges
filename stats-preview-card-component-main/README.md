@@ -24,7 +24,7 @@ Your users should be able to:
 - View the optimal layout depending on their device's screen size.  
 
 ### Links  
-- Live Site URL: [Live Site]([https://your-live-site-url.com](https://salehjoseph.github.io/Frontend-Mentor-Challenges/stats-preview-card-component-main/))  
+- Live Site URL: [Live Site](https://salehjoseph.github.io/Frontend-Mentor-Challenges/stats-preview-card-component-main/)  
 - Solution URL: [GitHub Repository](https://github.com/salehjoseph/Frontend-Mentor-Challenges/stats-preview-card-component-main)  
 
 ---

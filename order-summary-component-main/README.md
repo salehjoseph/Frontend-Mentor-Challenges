@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site](https://salehjoseph.github.io/Frontend-Mentor-Challenges/)  
-- Solution URL: [GitHub Repository](https://github.com/salehjoseph/Frontend-Mentor-Challenges/)
+- Live Site URL: [Live Site](https://salehjoseph.github.io/Frontend-Mentor-Challenges/order-summary-component-main)  
+- Solution URL: [GitHub Repository](https://github.com/salehjoseph/Frontend-Mentor-Challenges/order-summary-component-main)
 
 ---
 

@@ -23,12 +23,9 @@
 Your users should be able to:  
 - View the optimal layout depending on their device's screen size.  
 
-### Screenshot  
-![Screenshot of the solution](./images/screenshot.jpg)  
-
 ### Links  
 - Live Site URL: [Live Site](https://your-live-site-url.com)  
-- Solution URL: [GitHub Repository](https://github.com/your-repo-link)  
+- Solution URL: [GitHub Repository](https://github.com/salehjoseph/Frontend-Mentor-Challenges/stats-preview-card-component-main)  
 
 ---
 
@@ -39,7 +36,7 @@ Your users should be able to:
 - CSS custom properties  
 - Flexbox  
 - Responsive Design (Media Queries)  
-- [Frontend Mentor Starter Code](https://www.frontendmentor.io)  
+
 
 ### What I Learned  
 This project helped me:  
@@ -69,7 +66,7 @@ I aim to further refine my responsiveness skills, improve on accessibility, and 
 
 ## Author  
 - Frontend Mentor Profile: [Your Profile](https://www.frontendmentor.io/profile/salehjoseph)  
-- GitHub: [Your GitHub](https://github.com/salehjoseph)  
+- GitHub: [Your GitHub](https://salehjoseph.github.io/Frontend-Mentor-Challenges/stats-preview-card-component-main/)  
 - LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/sebaana-yusuf-215839247/)  
 
 ---

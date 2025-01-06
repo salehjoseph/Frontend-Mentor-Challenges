@@ -1,0 +1,124 @@
+body {
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    padding: 0;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+.container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    max-height: min-content;
+    text-align: center;
+    padding: 0;
+    margin: 50px auto;
+}
+.header {
+    background-color: hsl(245, 75%, 52%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 0;
+    overflow: hidden;
+}
+.header img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.content {
+    padding: 20px;
+}
+.content h1 {
+    font-size: 24px;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+.content p {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 20px;
+}
+.plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsla(228, 100%, 98%, 0.973);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.plan img {
+    width: 40px;
+    height: 40px;
+}
+.plan .details {
+    text-align: left;
+}
+.plan .details h2 {
+    font-size: 18px;
+    color: hsl(223, 47%, 23%);
+    margin: 0;
+}
+.plan .details p {
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    margin: 0;
+}
+.plan .change {
+    color: hsl(245, 75%, 52%);
+    font-size: 14px;
+    text-decoration: underline;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+.buttons button {
+    background-color: hsl(245, 75%, 52%);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-shadow: 0 8px 10px hsla(245, 75%, 52%, 0.3);
+}
+.buttons button.cancel {
+    background-color: transparent;
+    color: hsl(224, 23%, 55%);
+    box-shadow: none;
+}
+
+.buttons .btn1:hover {
+background-color: hsl(224, 23%, 55%);
+}
+.buttons button.cancel:hover {
+color: hsl(223, 47%, 23%);
+font-weight: bold;
+}
+.change:hover {
+text-decoration: none;
+color: hsl(224, 23%, 55%);
+font-weight: bold;
+}
+
+@media (max-width: 375px) {
+.container {
+width:85%;
+margin: 10px auto; 
+
+}
+}

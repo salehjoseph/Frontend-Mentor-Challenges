@@ -117,3 +117,9 @@ h1:hover{
 .creator span{
     color:hsl(215, 51%, 70%);
 }
+
+@media (max-width: 768px) {
+    .card {
+        max-width: 80%;
+    }
+}

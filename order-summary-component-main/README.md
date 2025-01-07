@@ -82,9 +82,9 @@ I aim to further improve my understanding of advanced CSS concepts like CSS Grid
 ### Author
 
 ## Author  
-- Frontend Mentor Profile: [Your Profile](https://www.frontendmentor.io/profile/salehjoseph)  
-- GitHub: [Your GitHub](https://github.com/salehjoseph)  
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/sebaana-yusuf-215839247/) 
+- Frontend Mentor Profile: [here...](https://www.frontendmentor.io/profile/salehjoseph)  
+- GitHub: [here...](https://github.com/salehjoseph)  
+- LinkedIn: [here...](https://www.linkedin.com/in/sebaana-yusuf-215839247/) 
 
 ---
 

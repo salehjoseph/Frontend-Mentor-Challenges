@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/salehjoseph/Frontend-Mentor-Challenges/nft-preview-card-component-main/)
-- Live Site URL: [Add live site URL here]((https://salehjoseph.github.io/Frontend-Mentor-Challenges/nft-preview-card-component-main/)
+- [Solution URL: ](https://github.com/salehjoseph/Frontend-Mentor-Challenges/nft-preview-card-component-main/)
+- [Live Site URL:](https://salehjoseph.github.io/Frontend-Mentor-Challenges/nft-preview-card-component-main/)
 
 ## My process
 

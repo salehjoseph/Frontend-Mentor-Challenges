@@ -1,0 +1,146 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.card {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 600px;
+    width: 100%;
+}
+.card img {
+    width: 50%;
+    object-fit: cover;
+}
+.card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+.card-content h2 {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.card-content h1 {
+    font-size: 24px;
+    color: hsl(212, 21%, 14%);
+    margin: 10px 0;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.card-content h1 span {
+    display: block;
+}
+.card-content p {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5;
+    font-weight: 500;
+    margin: 5px 0;
+}
+.price {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.price .current-price {
+    font-size: 24px;
+    color: hsl(158, 36%, 37%);
+    margin-right: 10px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+.price .original-price {
+    font-size: 16px;
+    color: #b0b0b0;
+    text-decoration: line-through;
+    font-weight: 500;
+}
+.add-to-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+.add-to-cart:hover{
+    background-color: hsla(160, 62%, 10%, 0.911);
+}
+.add-to-cart img {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+@media (max-width: 768px) {
+.card {
+flex-direction: column;
+margin: 20px;
+max-width: calc(100% - 40px); /* Ensure card doesn't exceed screen width */
+width: calc(100% - 40px);
+}
+
+.card img, .card-content {
+width: 100%;
+}
+
+.card img {
+max-height: 300px; 
+object-fit: cover;
+}
+
+.add-to-cart {
+width: 100%; 
+padding: 15px;
+font-size: 16px;
+}
+
+.add-to-cart img {
+margin-right: 10px;
+width: 16px;
+height: 16px;
+}
+
+.card-content {
+padding: 20px;
+box-sizing: border-box; 
+}
+
+.card-content p {
+font-size: 14px;
+color: hsl(228, 12%, 48%);
+line-height: 1.5;
+font-weight: 500;
+margin: 10px 0;
+word-wrap: break-word;
+overflow-wrap: break-word;
+text-align: left; 
+width: 100%; 
+}
+
+.price {
+display: flex;
+align-items: center;
+margin: 15px 0;
+}
+}

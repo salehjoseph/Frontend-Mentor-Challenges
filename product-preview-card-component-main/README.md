@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/salehjoseph/Frontend-Mentor-Challenges/tree/main/product-preview-card)
-- Live Site URL: [Add live site URL here](https://salehjoseph.github.io/Frontend-Mentor-Challenges/product-preview-card)
+- Solution URL: [Add solution URL here](https://github.com/salehjoseph/Frontend-Mentor-Challenges/tree/main/product-preview-card-component-main)
+- Live Site URL: [Add live site URL here](https://salehjoseph.github.io/Frontend-Mentor-Challenges/product-preview-card-component-main)
 
 ## My process
 

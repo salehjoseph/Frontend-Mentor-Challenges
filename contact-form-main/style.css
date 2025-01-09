@@ -1,0 +1,131 @@
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(148, 38%, 91%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+.notification {
+    background-color: hsla(189, 24%, 22%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: none;
+}
+.notification svg {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 5px;
+}
+input[type="text"]:hover{
+    border: 1px solid  hsl(169, 82%, 27%);
+    cursor: pointer;
+}
+input[type="checkbox"]:checked{
+   background-color:  hsl(169, 82%, 27%); ;
+}
+input.error,
+textarea.error {
+    border: 1px solid hsl(0, 66%, 54%);
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.row .column {
+    width: 48%;
+}
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.radio-group label {
+    display: flex;
+    align-items: center;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 5px;
+    padding: 5px;
+}
+.radio-group input {
+    margin-right: 5px;
+}
+.radio-group label:hover {
+    border: 1px solid  hsl(169, 82%, 27%);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.checkbox-group input {
+    margin-right: 5px;
+}
+.error-message {
+    color: hsl(0, 66%, 54%);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(169, 82%, 27%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .container{
+        margin: 20px;
+        padding: 10px;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .row .column {
+        width: 100%;
+    }
+    .radio-group label{
+        display: flex;
+        align-items: center;
+        border: 1px solid hsl(186, 15%, 59%);
+        border-radius: 5px;
+        padding: 1px;
+    }
+}
